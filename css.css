@@ -1,0 +1,20 @@
+body{
+    background-image: url('img/DSC04687.JPG');
+    background-size: cover;
+
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 300px;
+    margin: -200px 0px 0px -150px;
+    background-color: #D13076
+}
+
+img{
+    padding-top: 10px;
+    padding-left: 10px;
+}

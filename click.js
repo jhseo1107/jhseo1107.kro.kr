@@ -10,7 +10,7 @@ function facebook() {
             clearInterval(fadeEffect);
         }
     }, 10);
-    setTimeout(() => {window.open("https://www.facebook.com/seojanghyeob","_self")}, 700);
+    setTimeout(() => {window.open("https://www.facebook.com/seojanghyub","_self")}, 700);
     
 }
 function github() {

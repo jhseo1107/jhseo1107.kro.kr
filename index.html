@@ -3,16 +3,17 @@
         <title>Janghyub Seo</title>
         <link rel="stylesheet" type="text/css" href="css.css">
         <script src="click.js"></script>
+        <script type="module" src="three_jhseo.js"></script>
     </head>
     <body>
         <div id="main">
             <div class="center">
-                <img src="https://avatars3.githubusercontent.com/u/33977729?s=460&v=4" width = "420px" height = "420px" alt="Profile image">
-                <p style="font-size: 40px; display: inline;">Janghyub Seo</p>
+                <div class="externals" id="canvaswrapper" alt="wriggly bro for my profile img"></div>
+                <p style="font-size: 35px; display: inline; text-align: center; font-family: Noto Sans KR, sans-serif; letter-spacing: 5px;">Janghyub Seo</p>
                 <br>
-                <img onclick="facebook()" src="img/f_logo_RGB-Blue_512.png" width="40px" alt="Facebook">
-                <img onclick="github()" src="img/GitHub-Mark-120px-plus.png" width="40px" alt="Github">
-                <img onclick="cv()" src="img/cv.png" width="40px" alt="CV">
+                <img class="externals" onclick="facebook()" src="img/f_logo_RGB-Blue_512.png" width="40px" alt="Facebook">
+                <img class="externals" onclick="github()" src="img/GitHub-Mark-120px-plus.png" width="40px" alt="Github">
+                <img class="externals" onclick="cv()" src="img/cv.png" width="40px" alt="CV">
             </div>
         </div>
     </body>

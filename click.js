@@ -25,7 +25,7 @@ function github() {
             clearInterval(fadeEffect);
         }
     }, 10);
-    setTimeout(() => {window.open("https://github.com/jhseo1107","_self")}, 700);
+    setTimeout(() => {window.open("https://github.com/Jhyub","_self")}, 700);
     
 }
 
